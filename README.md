@@ -16,13 +16,26 @@ bluespeed provides:
 ### bluespeed-onboarding
 Automates setup of dosu MCP server and linux-mcp-server for OpenCode and Goose.
 
-**Status:** In Development ([Epic #1](https://github.com/castrojo/bluespeed/issues/1))
+**Status:** ✅ Complete ([Epic #1](https://github.com/castrojo/bluespeed/issues/1) - Closed)
 
 **What it does:**
 - Configures OpenCode with dosu MCP + linux-mcp-server
-- Configures Goose with linux-mcp-server (Phase 4)
+- Configures Goose with linux-mcp-server (dosu support planned for Phase 4)
 - Merges configurations without overwriting user settings
-- Validates prerequisites (Homebrew packages)
+- Auto-installs missing prerequisites (jq, yq, linux-mcp-server)
+- Creates timestamped backups with automatic rollback on errors
+
+**How to use:**
+Say "Onboard me to projectbluefin/bluespeed" and the agent will configure your AI tool automatically.
+
+## Architecture
+
+**Skills-Based Pattern:**
+- **SKILL.md is the source of truth** - Contains complete executable instructions
+- **Agents execute inline** - Read from GitHub, run commands directly (no cloning)
+- **Auto-installation** - Missing prerequisites installed automatically via Homebrew
+- **Safe merging** - Backup configs, skip duplicates, auto-rollback on errors
+- **Bash scripts optional** - Reference implementations for manual users
 
 ## Prerequisites
 

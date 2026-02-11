@@ -329,9 +329,17 @@ Before modifying bluespeed:
 ## Current Skills
 
 ### bluespeed-onboarding
-**Status:** In Development (Epic #1)  
+**Status:** ✅ Complete (Epic #1 - Closed)  
 **Purpose:** Setup dosu MCP and linux-mcp-server for Bluefin maintainers  
-**Tech:** Bash scripts, jq/yq for JSON/YAML manipulation  
-**Location:** `skills/bluespeed-onboarding/`
+**Tech:** Skills-based architecture (SKILL.md), inline bash commands, jq/yq for JSON/YAML manipulation  
+**Location:** `skills/bluespeed-onboarding/`  
+**How to invoke:** Say "Onboard me to projectbluefin/bluespeed"
+
+**Features:**
+- Auto-installs prerequisites (jq, yq, linux-mcp-server)
+- Configures OpenCode with dosu + linux-mcp-server MCP servers
+- Configures Goose with linux-mcp-server extension (dosu planned for Phase 4)
+- Safe config merging with timestamped backups
+- Automatic validation and rollback on errors
 
 More skills will be added as Bluefin maintenance tasks are identified.
