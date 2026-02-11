@@ -1,7 +1,7 @@
 # bluespeed-onboarding Implementation Plan
 
 > **Epic Issue:** https://github.com/castrojo/bluespeed/issues/1
-> **Sub-Tasks:** TBD (creating next)
+> **Sub-Tasks:** #2, #3, #4, #5, #6, #7, #8
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
