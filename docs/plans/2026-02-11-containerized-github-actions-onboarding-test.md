@@ -1,5 +1,8 @@
 # Containerized GitHub Actions Onboarding Test
 
+> **Epic Issue:** #9
+> **Sub-Tasks:** (to be created by implementing agent)
+
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
 **Goal:** Build a GitHub Actions workflow that validates the entire bluespeed-onboarding process in a clean Ubuntu environment, ensuring reliable onboarding for new Bluefin maintainers. This workflow will run on every PR and push to main, providing immediate feedback on configuration changes.
